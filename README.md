@@ -32,12 +32,12 @@
 - Click on the `Authorize` button.
 - Verify that you are not a robot by checking the verification box.
 - Once it says `Authorized`, it means that the bot is now in the server you selected.
-- Now, head back to the [discord developer portal](https://discord.com/developers/applications).
+- Now, head back to the [`Discord Developer Portal`](https://discord.com/developers/applications).
 - Select the application which you just created.
-- Go the BOT settings paga again.
+- Go the [`BOT settings tab`](https://ibb.co/GRRcS2y) again.
 - Click on `Copy` button under the `Token` menu.
 - Create a json file named `config.json` in your cloned project directory.
-- The json file should look like this:
+- The `config.json` file should look like this:
 ```json
 {
   "BOT_TOKEN" : "paste the token youy copied here (inside the quotes)"
