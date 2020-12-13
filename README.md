@@ -1,7 +1,6 @@
 # Discord Channels Nuke Bot
-**NOTE: Usage of this bot is not at all recommended as its against the [Terms of Service](https://discord.com/terms) of discord.**
-
-**Your accout may get banned if you use this bot.**
+- **Usage of this bot is not at all recommended as its against the [Terms of Service](https://discord.com/terms) of discord.**
+- **Your accout may get banned if you use this bot.**
 - You can still make an alt account if you are that desparate.
 - The bot requires `Manage Channels` permission in every server.
 - Deletes (or at least tries to) delete all the channels accessible to the bot.
@@ -43,7 +42,11 @@
   "BOT_TOKEN" : "paste the token youy copied here (inside the quotes)"
 }
 ```
-Once you have created the `config.json` file and followed all the steps correctly, you can just start the `main.py` file by writing following command in your terminal:
+- Once you have created the `config.json` file and followed all the steps correctly, you can just start the `main.py` file by writing following command in your terminal:
 ```bash
 python main.py
 ```
+- After running the file, you should see something [like this](https://ibb.co/PwcF6Vm).
+- Now, you can select a speed for the nuke bot. `Recommended Speed = Medium`.
+- Once you have selected a speed, it will take about 4-5 seconds for the bot to login (*depends on your internet speed*).
+- After the bot logs in, you can keep looking at the console for all the real-time updates.
