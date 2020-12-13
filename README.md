@@ -50,3 +50,4 @@ python main.py
 - Now, you can select a speed for the nuke bot. `Recommended Speed = Medium`.
 - Once you have selected a speed, it will take about 4-5 seconds for the bot to login (*depends on your internet speed*).
 - After the bot logs in, you can keep looking at the console for all the real-time updates.
+- Also, if the script shows a `RunTimeError`, and exits with exit code 0, it means that the bot had access to 0 channels.
