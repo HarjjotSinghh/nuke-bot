@@ -1,2 +1,2 @@
-# nuke-bot
-A simple discord nuke bot made via discord.py v1.6
+# Discord Channels Nuke Bot
+**NOTE: Doing this is not at all recommended as its against the [terms of service](https://discord.com/terms) of discord.**
