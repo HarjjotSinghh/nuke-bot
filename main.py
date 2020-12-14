@@ -77,7 +77,7 @@ print(f"Speed: 1 channel per {Time} second{'s' if Time > 1 else ''}")
 print(f"Bot is logging in...")
 
 
-async def nuke():  # main task
+async def NukeAllChannels():  # main task
     gone = 0  # number of channels deleted
     not_gone = 0  # number of channels which could not be deleted
     while True:  # while loop
@@ -124,5 +124,5 @@ async def on_ready():  # when the bot has logged in and is ready to go
                                       f"Total Channels Accessible: {all_channels}")  # print the channels accessible
 
 
-bot.loop.create_task(nuke())  # create the task here
+bot.loop.create_task(NukeAllChannels())  # create the task here
 bot.run(config['BOT_TOKEN'])  # run the bot (connect + login)
